@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +34,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*NavBar css*/
+.website-name{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  padding-right: 54em;
+}
+
+a.nav-item{
+  font-family: 'Roboto', sans-serif;
+  
+}
+a.nav-link{
+  display:inline-block;
+}
+
+div.navbar-nav{
+  display:inline-block;
+}
+/*Homepage css*/
+.title-text{
+  text-align: center;
+}
+.title{
+  font-family: monospace;
+  font-size: 6em;
+}
+.title-2{
+  font-family: monospace;
+  font-size: 4em;
 }
